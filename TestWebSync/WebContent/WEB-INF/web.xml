@@ -19,4 +19,14 @@
     <servlet-name>MyServlet</servlet-name>
     <url-pattern>/MyServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TestConnectDB</display-name>
+    <servlet-name>TestConnectDB</servlet-name>
+    <servlet-class>testDB.TestConnectDB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestConnectDB</servlet-name>
+    <url-pattern>/TestConnectDB</url-pattern>
+  </servlet-mapping>
 </web-app>
